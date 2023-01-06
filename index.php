@@ -233,7 +233,7 @@
                         <div class="timeline-heading">
                             <h4 class="subheading">Folyamatos fejlődés, megújjulás.</h4>
                         </div>
-                        <div class="timeline-body"><p class="text-muted">Már a kezdetektól fogva a csoportos foglalkozásokra fókuszáltunk. Az évek előrehaladtával fogozatosan fejlődött a terem által kínált mozgásformák változatossága, és edzők.</p></div>
+                        <div class="timeline-body"><p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium alias aperiam at corporis cum, deleniti exercitationem facere illum incidunt mollitia, nihil perferendis perspiciatis similique suscipit tempora tenetur velit. Aliquam, molestias!</p></div>
                     </div>
                 </li>
                 <li>
@@ -242,7 +242,7 @@
                         <div class="timeline-heading">
                             <h4 class="subheading">Egy igazi közössége válás</h4>
                         </div>
-                        <div class="timeline-body"><p class="text-muted">Számos program került megrendezésre, az elmúlt évek során. A legkülönbözőbb alkalmakkor tálálkoztunk, akár a termen kívül is egy közös élményre.</p></div>
+                        <div class="timeline-body"><p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem delectus ducimus enim, eos facilis magnam omnis quisquam recusandae rem voluptate. Cum explicabo harum possimus suscipit!</p></div>
                     </div>
                 </li>
                 <li class="timeline-inverted">
@@ -251,7 +251,7 @@
                         <div class="timeline-heading">
                             <h4 class="subheading">A bővülés időszaka</h4>
                         </div>
-                        <div class="timeline-body"><p class="text-muted">A nagy érdéklődésnek köszönhetően az idei évben megtehettünk egy hatalmas lépést a Profitnesz életében, és egy új termet rendezhettünk, hogy párhuzamosan is futhassanak edzéseink.</p></div>
+                        <div class="timeline-body"><p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad amet blanditiis deleniti ex harum impedit nemo quo reiciendis repellendus voluptatum!</p></div>
                     </div>
                 </li>
                 <li class="timeline-inverted">
@@ -374,7 +374,7 @@
     </footer>
     <!-- Trainingtype Modals-->
     <!-- trainingtype item 1 modal popup-->
-    <div class="training-modal modal fade" id="trainingtypeModal1" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="training-modal modal fade" id="trainingtypeModal0" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-dialog">
             <div class="modal-content">
                 <div class="close-modal" data-bs-dismiss="modal"><img src="assets/other/close-icon.svg" alt="Close modal" /></div>
@@ -383,7 +383,7 @@
                         <div class="col-lg-8">
                             <div class="modal-body">
                                 <!-- Project details-->
-                                <h2 class="text-uppercase">Project Name</h2>
+                                <h2 class="text-uppercase">Az edzésfajta neve</h2>
                                 <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
 
                                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae, eos excepturi impedit labore libero, maxime quibusdam reprehenderit saepe sit soluta atque aut autem cumque deserunt dolore doloremque doloribus ducimus  quasi quia recusandae tempore tenetur! Accusamus aperiam culpa laborum magnam nesciunt nisi saepe soluta, unde voluptates. Alias, consequatur cumque delectus dicta doloremque eveniet, fugiat illo labore molestiae nemo non nulla sit tempore. Accusantium aperiam consectetur culpa dicta dolor ex exercitationem harum impedit libero modi nihil nostrum officia, pariatur possimus provident repellat sed sint sit tempora tempore. Ducimus hic minima repudiandae.</p>
@@ -502,7 +502,8 @@
                             <div class="modal-body" id="display_users">
                             </div>
                             <div class="modal-footer">
-                                <button type="button" class="btn btn-warning" onclick="close_display_users_modal()">Vissza</button>
+                                <button type="button" class="btn btn-danger" onclick="close_display_users_modal()">Esemény törlése</button>
+                                <button type="button" class="btn btn-warning" onclick="delete_event()">Vissza</button>
                             </div>
                         </div>
                     </div>
@@ -514,7 +515,6 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
     <script src="js/nav_scripts.js"></script>
     <script src="js/calendar_scripts.js"></script>
-    <script src='https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/3.9.0/fullcalendar.min.js/lang/es.js'></script>
     <script src="js/gallery_scripts.js"></script>
 </body>
 </html>

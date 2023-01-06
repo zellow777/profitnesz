@@ -90,7 +90,8 @@ let admin = false;
         });
 },//end success block
     error: function (xhr, status) {
-    alert(response.msg);
+        let response;
+        alert(response.msg);
 }
 });//end ajax block
 }
@@ -161,6 +162,29 @@ function save_event()
     return false;
 }
 
+function delete_event(){
+    $.ajax({
+        url:"delete_event.php",
+        type:"POST",
+        dataType: 'json',
+        data: {event_id: event_id},
+        success:function(response){
+            if(response.status == true)
+            {
+                alert(response.msg);
+            }
+            else
+            {
+                alert(response.msg);
+            }
+        },
+        error: function (xhr, status) {
+            console.log('ajax error = ' + xhr.statusText);
+            alert(response.msg);
+        }
+    });
+}
+
 function close_event_entry_modal(){
     $('#event_entry_modal').modal('hide');
     clearinputs();
@@ -179,11 +203,4 @@ function clearinputs(){
     }
 }
 
-function changeCalendarView(){
-    // Get a reference to the element that uses fullcalendar.js
-    var calendarElement = document.getElementById("calendar");
-
-    // Change the view to "month" view
-    calendarElement.fullCalendar("changeView", "month");
-}
 
